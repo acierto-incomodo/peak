@@ -1,10 +1,10 @@
 [Setup]
-AppName=Peak by StormGamesStudios
+AppName=PEAK by StormGamesStudios
 AppVersion=1.0.3
-DefaultDirName={userappdata}\StormGamesStudios\NewGameDir\Peak
+DefaultDirName={userappdata}\StormGamesStudios\NewGameDir\PEAK
 DefaultGroupName=StormGamesStudios
 OutputDir=C:\Users\mapsp\Documents\GitHub\peak\output
-OutputBaseFilename=Peak_Launcher_Installer
+OutputBaseFilename=PEAK_Launcher_Installer
 Compression=lzma
 SolidCompression=yes
 AppCopyright=Copyright © 2025 StormGamesStudios. All rights reserved.
@@ -23,15 +23,15 @@ Source: "C:\Users\mapsp\Documents\GitHub\peak\peak.png"; DestDir: "{app}"; Flags
 
 [Icons]
 ; Acceso directo en el escritorio
-; Name: "{userdesktop}\Peak"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\peak.ico"; Comment: "Lanzador de Peak"; WorkingDir: "{app}"
+; Name: "{userdesktop}\PEAK"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\peak.ico"; Comment: "Lanzador de PEAK"; WorkingDir: "{app}"
 
 ; Acceso directo en el menú de inicio dentro de la carpeta StormGamesStudios
-Name: "{commonprograms}\StormGamesStudios\Peak"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\peak.ico"; Comment: "Lanzador de Peak"; WorkingDir: "{app}"
-Name: "{commonprograms}\StormGamesStudios\Desinstalar Peak"; Filename: "{uninstallexe}"; IconFilename: "{app}\peak.ico"; Comment: "Desinstalar Peak"
+Name: "{commonprograms}\StormGamesStudios\PEAK"; Filename: "{app}\installer_updater.exe"; IconFilename: "{app}\peak.ico"; Comment: "Lanzador de PEAK"; WorkingDir: "{app}"
+Name: "{commonprograms}\StormGamesStudios\Desinstalar PEAK"; Filename: "{uninstallexe}"; IconFilename: "{app}\peak.ico"; Comment: "Desinstalar PEAK"
 
 [Registry]
 ; Guardar ruta de instalación para poder desinstalar
-Root: HKCU; Subkey: "Software\Peak"; ValueType: string; ValueName: "Install_Dir"; ValueData: "{app}"
+Root: HKCU; Subkey: "Software\PEAK"; ValueType: string; ValueName: "Install_Dir"; ValueData: "{app}"
 
 [UninstallDelete]
 ; Eliminar carpeta del appdata y acceso directo
@@ -39,4 +39,4 @@ Type: filesandordirs; Name: "{app}"
 
 [Run]
 ; Ejecutar el lanzador después de la instalación
-Filename: "{app}\installer_updater.exe"; Description: "Ejecutar Peak"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\installer_updater.exe"; Description: "Ejecutar PEAK"; Flags: nowait postinstall skipifsilent
