@@ -296,7 +296,7 @@ class LauncherWindow(QtWidgets.QWidget):
                 download_file(URL_7ZR, p_7zr, progress_cb)
 
                 # 2. Descargar partes .001 a .012
-                total_parts = 12
+                total_parts = 1
                 for i in range(1, total_parts + 1):
                     ext = f".{i:03d}"
                     url = f"{BASE_URL_WIN}{ext}"

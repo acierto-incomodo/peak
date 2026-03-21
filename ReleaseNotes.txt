@@ -1,7 +1,7 @@
 Cambios
 
-Launcher (v1.0.0):
-- NaN
+Launcher (v1.1.0):
+- Mejoras del sistema de descargas y actualizaciones
 
-Juego (v1.0.0):
+Juego (v1.0.1):
 - NaN
