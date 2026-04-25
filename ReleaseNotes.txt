@@ -1,7 +1,7 @@
 Cambios
 
-Launcher (v1.1.0):
-- Mejoras del sistema de descargas y actualizaciones
+Launcher (v1.1.1):
+- Actualizado a 2 descargas.
 
-Juego (v1.0.1):
-- NaN
+Juego (v1.54.c ModsBuild v1):
+- Mods agregados.
